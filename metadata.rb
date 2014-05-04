@@ -1,10 +1,10 @@
-name             "rvm passenger"
+name             "rvm_passenger"
 maintainer       "Fletcher Nichol"
 maintainer_email "fnichol@nichol.ca"
 license          "Apache 2.0"
 description      "Installs and configures Passenger under RVM with Apache or nginx"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.8.4"
+version          "0.8.5"
 
 recipe "rvm_passenger",           "Installs Passenger gem with RVM"
 recipe "rvm_passenger::apache2",  "Enables Apache module configuration for passenger under RVM"
